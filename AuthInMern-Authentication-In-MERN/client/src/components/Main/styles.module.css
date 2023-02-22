@@ -1,7 +1,7 @@
 .navbar {
 	width: 100%;
 	height: 70px;
-	background-color: #3bb19b;
+	background-color: #3bb162;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -24,4 +24,111 @@
 	font-size: 14px;
 	cursor: pointer;
 	margin-right: 20px;
+}
+/* 
+body {
+	background: #262a2f;
+   
+	
+}
+.container_2{
+   width: 400px;
+   padding: 25px 35px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   background: #ffffff;
+   border-radius: 10px;
+}
+
+.container_2 p{
+	font-weight:600 ;
+	font-size:15px ;
+	margin-bottom: 8px ;
+
+}
+.container_2 input{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #494eea;
+	outline: 0;
+	padding: 10px;
+	margin: 10px 0 20px;
+	border-radius: 5px;
+}
+
+.container_2 button {
+	width: 100%;
+	height: 50px;
+	background: #494eea;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+	cursor: pointer;
+	margin: 20px 0;
+	font-weight: 500;
+} */
+
+.container_1{
+	/* width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+	0px 3px 4px 0px rgba(207, 85, 85, 0.14), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+	padding: 10px;
+    justify-content: center;
+	align-items: center;
+	 */
+	 font-size: 130%;
+}
+.container_1 h3 {
+	color: rgba(16, 120, 218, 0.801);
+	text-decoration: underline;
+}
+
+.container_2{
+	font-size: 130%;
+	/* width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+	0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%); */
+
+}
+.container_2 h3 {
+	color: rgba(16, 120, 218, 0.801);
+	text-decoration: underline;
+}
+.container_0{
+	justify-content: center;
+	align-items: center;
+	display:grid;
+	background-color: aliceblue;
+	/* height: 700px;
+	width: 900px;
+	box-shadow: 10px 3px 3px -2px rgba(0, 0, 0, 0.541), */
+
+	
+}
+.container_3{
+	font-size: 130%;
+	
+	align-items: center;
+	justify-content: center;
+	color: rgb(10, 166, 238);
+
+}
+.qrcode{
+	align-items: center;
+	justify-content: center;
+	/* text-align: center; */
+	margin-left: 25%;
+}
+
+ img {
+	height: 15%;
+	width: 20%;
 }
